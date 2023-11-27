@@ -5,6 +5,9 @@ slug: dorm-router
 
 categories: 
     - explores
+tags:
+    - internet
+    - hardware
 ---
 
 很有必要在宿舍使用路由器。这边的网络是**每个学生向运营商办一份校园宽带，由管理员将其同学生账号绑定**后才可使用校园网。电信的宽带起步都59了，只是为了用个网就要交那么多月租，很不划算的。<br>
