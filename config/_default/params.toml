@@ -6,15 +6,15 @@ favicon = ""
 
 [footer]
 since = 2023
-customText = ""
+customText = "**Give_the_world_My_approaches**"
 
 [dateFormat]
 published = "2006-01-02"
 lastUpdated = "2006-01-02 15:04"
 
 [sidebar]
-emoji = "👻"
-subtitle = "翹課是爲了更好地學習"
+emoji = "🀄"
+subtitle = "俺都写嘞啥玩应啊？"
 [sidebar.avatar]
 enabled = true
 local = true
@@ -30,8 +30,6 @@ default = "CC BY-NC-SA 4.0"
 ## Widgets
 [[widgets.homepage]]
 type = "search"
-# [[widgets.homepage]]
-# type = "archives"
 [widgets.homepage.params]
 limit = 5
 [[widgets.homepage]]
