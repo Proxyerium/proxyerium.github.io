@@ -6,7 +6,7 @@ favicon = ""
 
 [footer]
 since = 2023
-customText = "**Give_the_world_My_approaches**"
+customText = ""
 
 [dateFormat]
 published = "2006-01-02"
