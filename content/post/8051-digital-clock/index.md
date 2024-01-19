@@ -21,6 +21,8 @@ links:
 
 本篇记录我对社团发的考核任务的实现方案。
 
+****
+
 ## 任务内容
 
 题目抽签来的，抽到个比较简单的😏：
@@ -164,6 +166,6 @@ unsigned char 类型的数值范围是0~255，发生下溢时会从0跳至255。
 
 [普中官方数据手册](https://www.stcmicro.com/datasheet/STC89C51RC-cn.pdf)
 
-[Bilibili - 51单片机入门教程-2020版](https://www.bilibili.com/video/BV1Mb411e7re)
+[51单片机入门教程-2020版 - Bilibili](https://www.bilibili.com/video/BV1Mb411e7re)
 
-[Bilibili - 入坑单片机--[12]](https://www.bilibili.com/video/BV1YV4y1K72Q)
+[入坑单片机--[12] - Bilibili](https://www.bilibili.com/video/BV1YV4y1K72Q)
