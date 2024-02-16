@@ -1,7 +1,7 @@
 ---
 title: "8051单片机练习 | 电子时钟"
 date: 2023-12-13T08:33:24+08:00
-slug: 8051clock
+slug: stc51clock
 
 categories:
     - explores

@@ -1,8 +1,7 @@
 ---
 title: 探索
-description: 到處亂看亂學的經驗！
+description: 到处乱学
 slug: explores
-image:
 
 style:
     background: "#39c5bb"

@@ -1,8 +1,7 @@
 ---
-title: 筆記
-description: 有在好好學習的說！
+title: 笔记
+description: 有在读书
 slug: notes
-image:
 
 style:
     background: "#f4884f"
