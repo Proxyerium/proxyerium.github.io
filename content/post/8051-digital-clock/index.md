@@ -1,21 +1,17 @@
 ---
 title: "8051单片机练习 | 电子时钟"
 date: 2023-12-13T08:33:24+08:00
-slug: stc51clock
-
-categories:
-    - explores
-tags:
-    - embedded
-
+slug: stc51-clock
+categories: [explores]
+tags: [embedded]
 links: 
     - title: 项目源码
-      description: 下次不写那么多注释了
+      description: 下次不写那么多注释了😌
       website: https://github.com/Proxyerium/8051-digital-clock
       image: https://github.com/favicon.ico
 ---
 
-我刚接触bms时，心血来潮想自己做个手台。但我的电子科技知识匮乏，动手能力也差，只是稍微看了些设计方案就草率开始行动——最终是毫无悬念的大失败：焊坏了3个焊盘、浪费了15张PCB、吃灰了一堆元件，我忏悔😭。对此一直耿耿于怀，所以大学加个社团，看看能不能进去学点什么再去追求我未竟的夙愿；而且当然不止手台，我还有很多别的小玩具想做。
+我刚接触bms时，心血来潮想自己做个手台。但我的电子科技知识匮乏，动手能力也差，只是稍微看了些设计方案就草率开始行动——最终是毫无悬念的大失败：焊坏了3个焊盘、浪费了15张PCB、吃灰了一堆元件，我忏悔😭。对此一直耿耿于怀，所以大学加个社团，看看能不能进去学点什么再去追求我未竟的夙愿；当然不止手台，我还有很多别的小玩具想做。
 
 社团首先介绍51系的单片机，我起初做手台尝试的Arduino，虽然Arduino也算简单的，但51事实地更简单，确实应该是我首先应该看看的。
 

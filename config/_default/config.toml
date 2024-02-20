@@ -2,7 +2,7 @@
 baseurl = "https://proxyerium.github.io/"
 languageCode = "en-us"
 paginate = 10
-title = "proxyerium's blog"
+title = "proxyerium::blog"
 theme = "hugo-theme-stack"
 
 # Theme i18n support

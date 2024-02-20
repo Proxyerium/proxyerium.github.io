@@ -2,13 +2,8 @@
 title: "Build a kernel for my picasso"
 date: 2024-02-12T13:53:49+08:00
 slug: picasso-kernel-build
-
-categories:
-    - explores
-tags:
-    - android
-    - root
-
+categories: [explores]
+tags: [android, root]
 links:
     - title: KernelSU官网
       website: https://kernelsu.org/
@@ -79,6 +74,6 @@ docker cp picasso:/build-host/out/AnyKernel3-picasso/xxxxx.zip .
 
 ## 参考资料
 
-[KernelSU - 如何为非 GKI 内核集成 KernelSU](https://kernelsu.org/zh_CN/guide/how-to-integrate-for-non-gki.html)
+[如何为非 GKI 内核集成 KernelSU](https://kernelsu.org/zh_CN/guide/how-to-integrate-for-non-gki.html)
 
-[EndCredits - Build a Kernel for Redmi K30 5G by your self.](https://blog.crepuscular-aosp.icu/blogs/linux/build-kernel.html)
+[Build a Kernel for Redmi K30 5G by your self.](https://blog.crepuscular-aosp.icu/blogs/linux/build-kernel.html)

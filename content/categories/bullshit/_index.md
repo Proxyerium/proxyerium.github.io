@@ -1,6 +1,6 @@
 ---
 title: 杂谈
-description: 随便聊聊
+description: 歪比八卜
 slug: bullshit
 
 style:

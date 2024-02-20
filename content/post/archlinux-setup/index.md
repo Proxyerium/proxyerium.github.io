@@ -2,14 +2,11 @@
 title: "Archlinux安装"
 date: 2024-01-17T18:27:12+08:00
 slug: archlinux-setup
-
-categories:
-    - notes
-tags:
-    - linux
+categories: [notes]
+tags: [linux]
 ---
 
-Arch的安装确实照着官方教程做一遍就会了，不过每次安装总要看着wiki那还是挺麻烦的，把整个流程记下来方便日后再安装。
+Arch的安装确实照着官方教程做一遍就会了，不过每次安装总要看着wiki挺麻烦的，把整个流程记下来方便以後要安装的时候。
 
 ****
 

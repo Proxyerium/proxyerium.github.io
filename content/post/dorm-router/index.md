@@ -2,12 +2,8 @@
 title: "宿舍路由器方案"
 date: 2023-10-17T13:34:18+08:00
 slug: dorm-router
-
-categories: 
-    - explores
-tags:
-    - web
-    - hardware
+categories: [explores]
+tags: [web, hardware]
 ---
 
 很有必要在宿舍使用路由器。这边的网络是**每个学生向运营商办一份校园宽带，由管理员将其同学生账号绑定**後才可使用校园网。电信的宽带起步都59了，只是为了用个网就要交那么多月租，很不划算的。<br>
@@ -170,8 +166,8 @@ WAN 路由器
 
 ## 参考资料
 
-[Installing OpenWrt on the Xiaomi 4A, 4C, 3Gv2, 4Q, miWifi 3C and debrick method New 2022 - YouTube](https://www.youtube.com/watch?v=SLbkce-M2nE)
+[Installing OpenWrt on the Xiaomi 4A, 4C, 3Gv2, 4Q, miWifi 3C and debrick method New 2022](https://www.youtube.com/watch?v=SLbkce-M2nE)
 
-[OpenWRT软件仓库镜像使用帮助 - MirrorZ](https://help.mirrors.cernet.edu.cn/openwrt/)
+[OpenWRT软件仓库镜像使用帮助](https://help.mirrors.cernet.edu.cn/openwrt/)
 
-[路由器自动登录校园网 - bilibili](https://www.bilibili.com/video/BV1FA411N73f)
+[路由器自动登录校园网](https://www.bilibili.com/video/BV1FA411N73f)
