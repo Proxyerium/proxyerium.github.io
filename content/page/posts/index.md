@@ -1,5 +1,5 @@
 ---
-title: "Archives"
+title: "Posts"
 layout: "archives"
 slug: "p"
 menu:

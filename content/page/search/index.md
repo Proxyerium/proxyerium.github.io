@@ -1,7 +1,7 @@
 ---
 title: "Search"
-slug: "s"
 layout: "search"
+slug: "s"
 outputs:
     - html
     - json

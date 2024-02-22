@@ -1,5 +1,6 @@
 ---
 date: false
+slug: a
 menu:
     main:
         name: About

@@ -10,7 +10,7 @@ customText = ""
 
 [dateFormat]
 published = "2006-01-02"
-lastUpdated = "2006-01-02 15:04"
+lastUpdated = "2006-01-02"
 
 [sidebar]
 emoji = "🀄"
@@ -70,7 +70,7 @@ repoID = "R_kgDOKZBzLw"
 category = "General"
 categoryID = "DIC_kwDOKZBzL84CdRUX"
 mapping = "pathname"
-lightTheme = "light"
-darkTheme = "noborder_gray"
+lightTheme = ""
+darkTheme = ""
 reactionsEnabled = 1
 emitMetadata = 0

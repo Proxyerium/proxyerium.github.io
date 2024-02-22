@@ -1,2 +1,2 @@
-lastmod = ["lastmod", ":git", ":fileModTime", "date", "publishDate"]
+lastmod = [":git", "lastmod", ":fileModTime", "date", "publishDate"]
 license = "CC BY-NC-SA 4.0"
