@@ -2,7 +2,6 @@
 title: "宿舍路由器方案"
 date: 2023-10-17T13:34:18+08:00
 slug: dorm-router
-categories: [explores]
 tags: [web, hardware]
 ---
 

@@ -2,7 +2,6 @@
 title: "Archlinux安装"
 date: 2024-01-17T18:27:12+08:00
 slug: archlinux-setup
-categories: [notes]
 tags: [linux]
 ---
 

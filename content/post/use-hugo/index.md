@@ -2,7 +2,6 @@
 title: "Made in goHugo | 使用hugo框架搭建个人博客"
 date: 2023-09-17T15:36:21+08:00
 slug: use-hugo
-categories: [explores]
 tags: [web]
 links: 
     - title: hugo官方文档

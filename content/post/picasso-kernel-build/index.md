@@ -2,8 +2,7 @@
 title: "Build a kernel for my picasso"
 date: 2024-02-12T13:53:49+08:00
 slug: picasso-kernel-build
-categories: [explores]
-tags: [android, root]
+tags: [android, kernel]
 links:
     - title: KernelSU官网
       website: https://kernelsu.org/

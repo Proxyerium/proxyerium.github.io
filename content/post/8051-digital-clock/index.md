@@ -1,8 +1,7 @@
 ---
-title: "8051单片机练习 | 电子时钟"
+title: "8051MCU | 电子时钟"
 date: 2023-12-13T08:33:24+08:00
 slug: stc51-clock
-categories: [explores]
 tags: [embedded]
 links: 
     - title: 项目源码

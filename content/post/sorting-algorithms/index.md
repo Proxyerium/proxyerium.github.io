@@ -2,7 +2,6 @@
 title: "排序算法"
 date: 2023-10-24T12:23:05+08:00
 slug: sorting-algorithm
-categories: [notes]
 tags: [algorithm]
 math: true
 ---
