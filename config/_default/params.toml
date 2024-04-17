@@ -13,8 +13,8 @@ published = "2006-01-02"
 lastUpdated = "2006-01-02"
 
 [sidebar]
-emoji = "🀄"
-subtitle = "俺都写嘞啥玩应啊？"
+emoji = "💪"
+subtitle = "我要成为C#高手"
 [sidebar.avatar]
 enabled = true
 local = true
@@ -27,7 +27,6 @@ readingTime = false
 enabled = true
 default = "CC BY-NC-SA 4.0"
 
-## Widgets
 [[widgets.homepage]]
 type = "search"
 params.limit = 5
@@ -51,16 +50,11 @@ enabled = false
 local = false
 src = ""
 
-# [colorScheme]
-# toggle = true
-# default = "auto"
-
 [imageProcessing.cover]
 enabled = true
 [imageProcessing.content]
 enabled = true
 
-## Comments
 [comments]
 enabled = true
 provider = "giscus"

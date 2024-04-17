@@ -14,7 +14,7 @@ Arch的安装确实照着官方教程做一遍就会了，不过每次安装总�
 ### iwctl联网
 
 ```shell
-device list
+device list # 列出网卡
 station <device> scan
 station <device> get-networks
 station <device> connect <SSID>
@@ -24,34 +24,36 @@ station <device> connect <SSID>
 
 ```shell
 fdisk -l <disk>
-fdisk <disk>
+fdisk <disk> # 进行配置
 fdisk>> g # 新建GPT分区表
 fdisk>> n # 新建分区
-fdisk>> t # 更改分区类型 1 19 23
+fdisk>> t # 更改分区类型 EFI: 1 swap: 19 x86-64-root: 23
 fdisk>> w
 ```
 
 ### 格式化分区
 
 ```shell
+mkfs.ext4 <root_partition>
 mkfs.fat -F 32 <EFI_partition>
 mkswap <swap_partition>
-mkfs.ext4 <root_partition>
 ```
 
 ### 挂载分区
 
 ```shell
 mount <root_partition> /mnt
-mount --mkdir <EFI_partition> /mnt/boot
+mount <EFI_partition> /mnt/boot # 不存在则加上 --mkdir
 swapon <swap_partition>
 ```
 
 ### 安装系统
 
+遇上 GPG signature 的问题的话，找到 `/etc/pacman.conf` 中的 `SigLevel` 属性，添加 `TrustAll` 就得，怎么连自家的包都不信任的。
+
 ```shell
 vim /etc/pacman.d/mirrorlist # Server=https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
-pacstrap -K /mnt base linux linux-firmware amd-ucode networkmanager vim 
+pacstrap -K /mnt base linux linux-firmware amd-ucode intel-ucode networkmgr vim 
 ```
 
 ### 配置系统
@@ -63,16 +65,19 @@ ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 hwclock --systohc
 vim /etc/locale.gen # en_US.UTF-8
 locale-gen
-vim /etc/locale.conf # LANG=en_US.UTF-8
+echo LANG=en_US.UTF-8 >> /etc/locale.conf
 echo <hostname> >> /etc/hostname
 passwd
 ```
 
 ### bootloader
 
+双系统的话[先看下面](#双系统)。
+
 ```shell
-pacman -S grub efibootmanager
+pacman -S grub efibootmgr
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-mkconfig -o <EFI_partition>/grub/grub.cfg
 ```
 
 ### Nvidia ~~fxxk you~~
@@ -108,3 +113,9 @@ grub-mkconfig
 [Archlinux安装指南](https://wiki.archlinux.org/title/Installation_guide)
 
 [Arch-Win双系统](https://wiki.archlinux.org/title/Dual_boot_with_Windows)
+
+## Changelog
+
+|||
+|:-:|:-:|
+| 2024-4-17 | #1: 踩到自己挖的坑，修补一下 |
